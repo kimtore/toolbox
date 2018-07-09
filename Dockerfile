@@ -5,6 +5,7 @@ RUN apt-get update \
         curl \
         git \
         iputils-ping \
+        iproute2 \
         nmap \
         tmux \
         traceroute \
