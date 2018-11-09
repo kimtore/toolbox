@@ -3,9 +3,13 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends \
         ca-certificates \
         curl \
+        file \
         git \
         iputils-ping \
+        iptables \
+        less \
         nmap \
+        tcpdump \
         tmux \
         traceroute \
         vim \
