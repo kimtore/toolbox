@@ -3,12 +3,16 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends \
         ca-certificates \
         curl \
+        dnsutils \
         file \
         git \
-        iputils-ping \
+        iproute2 \
         iptables \
+        iputils-ping \
         less \
+        netcat \
         nmap \
+        socat \
         tcpdump \
         tmux \
         traceroute \
@@ -20,4 +24,4 @@ RUN apt-get update \
 WORKDIR /root
 RUN git clone https://github.com/ambientsound/dotfiles && /root/dotfiles/setup
 RUN chsh -s /bin/zsh
-CMD ["/bin/zsh"]
+CMD ["/bin/sleep", "infinity"]
