@@ -20,4 +20,4 @@ RUN apt-get update \
 WORKDIR /root
 RUN git clone https://github.com/ambientsound/dotfiles && /root/dotfiles/setup
 RUN chsh -s /bin/zsh
-CMD ["/bin/zsh"]
+CMD ["/bin/sleep", "infinity"]
