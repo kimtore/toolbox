@@ -3,10 +3,13 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends \
         ca-certificates \
         curl \
+        dnsutils \
         git \
         iputils-ping \
         iproute2 \
+        netcat \
         nmap \
+        socat \
         tmux \
         traceroute \
         vim \
