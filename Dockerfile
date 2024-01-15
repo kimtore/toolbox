@@ -15,6 +15,7 @@ RUN apt-get update \
         less \
         netcat \
         nmap \
+        postgresql-client \
         rsync \
         ssh \
         socat \
